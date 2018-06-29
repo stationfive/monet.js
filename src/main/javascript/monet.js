@@ -16,6 +16,8 @@
     }
 }(this, function(root) {
     "use strict";
+    
+    root = root || {};
 
     var curry = function (fn, args) {
       return function () {
